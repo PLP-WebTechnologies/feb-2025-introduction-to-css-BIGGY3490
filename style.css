@@ -1,33 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction to CSS</title>
-    <link rel="stylesheet" href="style.css"> <!-- Linking to external CSS -->
-</head>
-<body>
+/* Body styles */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
-    <header>
-        <h1>Welcome to My Stylish Webpage</h1>
-    </header>
+/* ID Selector */
+#main-header {
+  background-color: #4682b4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #2e5984;
+}
 
-    <main>
-        <section>
-            <h2>My Favorite Nature Image</h2>
-            <img src="https://images.pexels.com/photos/1732400/pexels-photo-1732400.jpeg" alt="Nature" class="nature-image">
-            <p class="intro-text">This is an amazing image of nature that I really love. It shows the beautiful landscape that reminds me of the simplicity and serenity of the outdoors.</p>
-        </section>
+/* Class Selector */
+.content {
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
 
-        <section>
-            <h2>Contact Information</h2>
-            <p id="contact">You can reach me at: <strong>contact@mywebsite.com</strong></p>
-        </section>
-    </main>
+/* Element Selector */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #4682b4;
+  color: white;
+}
 
-    <footer>
-        <p>&copy; 2025 My Stylish Webpage</p>
-    </footer>
-
-</body>
-</html>
+/* Style the image */
+.styled-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 20px;
+  border: 5px solid #ccc;
+  border-radius: 8px;
+}
